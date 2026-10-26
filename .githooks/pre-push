@@ -1,0 +1,10 @@
+#!/bin/sh
+# Public repo: block the push if gitleaks finds a secret anywhere in history.
+if ! command -v gitleaks >/dev/null 2>&1; then
+  echo "pre-push: gitleaks is not installed; push blocked. Install: winget install Gitleaks.Gitleaks" >&2
+  exit 1
+fi
+gitleaks git . --redact --exit-code 1 || {
+  echo "pre-push: gitleaks found a possible secret; push blocked." >&2
+  exit 1
+}
