@@ -1,6 +1,6 @@
 # IceBrkn: relationship memory for Meta glasses
 
-Built during the Meta hackathon, Oct 27 - Nov 4 2026.
+Built during the Meta hackathon, Oct 26 - Nov 4 2026.
 
 > "There's Sarah. Catch me up."
 > IceBrkn remembers the little things about the people you know, and brings them back at the right moment.
