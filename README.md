@@ -23,7 +23,7 @@ Building. Sections below fill in as each piece is built and proven.
 
 ## Existing vs new
 
-| Piece | Existing IceBrkn (before Oct 27) | New in this hackathon | Built with Muse Code |
+| Piece | Existing IceBrkn (before the Oct 26 kickoff) | New in this hackathon | Built with Muse Code |
 |---|---|---|---|
 | | | | |
 
